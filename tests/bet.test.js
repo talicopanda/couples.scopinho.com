@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { createRound, advance, revealed, predictor, back, canGoBack } from "../js/games/bet.js";
+import { createRound, advance, revealed, predictor, back, canGoBack } from "../couples/js/games/bet.js";
 
 const prompt = { id: "p", category: "c", prompt: { en: "Q?" } };
 

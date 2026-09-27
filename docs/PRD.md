@@ -25,10 +25,10 @@ The application is designed to be self-hosted and extensible. Game content shoul
 
 ## Consequences
 
-- **The game is a fully static site.** It deploys to **GitHub Pages** under **`couples.scopinho.com`**, served directly from the repo's `main` branch (no build step, no Actions). Free, no backend, no Azure.
+- **The game is a fully static site.** It deploys to **GitHub Pages** at **`games.scopinho.com/couples/`** (with `couples.scopinho.com` forwarding there), served directly from the repo's `main` branch (no build step, no Actions). Free, no backend, no Azure.
 - **Privacy is handled physically.** When it's one player's turn to enter a private answer, the screen hides prior/opponent input; the device is then passed. The app must make it obvious when to pass and must not reveal a hidden answer on screen before the reveal phase.
 - **"Each player on their own device" is explicitly deferred** to a future online mode (see Future Iterations). It was a *secondary* goal in the original draft, not a V1 requirement.
-- **Project home:** a **new standalone repository** (`couples.scopinho.com`), separate from the Gatsby personal-site repo, with its own Pages deployment.
+- **Project home:** a standalone **`game-box`** repository, separate from the Gatsby personal-site repo. It serves `games.scopinho.com`: a hub page at `/` and one folder per game collection (V1: `/couples/`).
 
 ---
 
@@ -575,7 +575,7 @@ The players should be able to go from opening the website to playing a round wit
 
 # Technical Direction
 
-- **Static site**, served by **GitHub Pages** (deploy from branch, no build step) at `couples.scopinho.com`, from its own repo. A `CNAME` file pins the custom domain.
+- **Static site**, served by **GitHub Pages** (deploy from branch, no build step) at `games.scopinho.com` from the `game-box` repo; this game lives at `/couples/`. A `CNAME` file pins the custom domain; `couples.scopinho.com` is a DNS-level forward.
 - **Mobile-first.** The primary device is a phone passed across a dinner table: portrait layout, large tap targets, one-handed use, readable at arm's length, works with the on-screen keyboard open, respects safe areas (notch/home bar). Desktop/tablet is a secondary, scaled-up layout.
 - **No backend, no database, no auth** in V1.
 - Prioritize:
@@ -603,7 +603,7 @@ A first implementation is successful when:
 - The game can be restarted without reloading the page.
 - Game content lives outside the core game logic (static bundled data).
 - New prompts/cases can be added by editing data files only — no logic changes.
-- The site builds statically and deploys to GitHub Pages at `couples.scopinho.com`.
+- The site deploys to GitHub Pages at `games.scopinho.com/couples/`, reachable via `couples.scopinho.com`.
 
 Do NOT implement persistent history, AI-generated prompts, accounts, sophisticated analytics, mandatory scoring, **or any backend/room/networking** in V1 unless it falls out naturally from the architecture.
 

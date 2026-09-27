@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { createRound, advance, revealed, outcome, second, back, canGoBack } from "../js/games/court.js";
+import { createRound, advance, revealed, outcome, second, back, canGoBack } from "../couples/js/games/court.js";
 
 const item = { id: "court_001", category: "c", title: { en: "T" }, scenario: { en: "S" }, question: { en: "Q" } };
 const content = { defaultDebatePrompts: [{ en: "Defend" }, { en: "Counter" }] };

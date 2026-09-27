@@ -1,9 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
-import { LANGS } from "../js/i18n.js";
+import { LANGS } from "../couples/js/i18n.js";
 
-const dir = new URL("../content/", import.meta.url);
+const dir = new URL("../couples/content/", import.meta.url);
 const files = (await readdir(dir)).filter((f) => f.endsWith(".json"));
 
 function assertTranslated(field, where) {

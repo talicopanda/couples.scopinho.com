@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { strings, t, loc, setLang, detectLang } from "../js/i18n.js";
+import { strings, t, loc, setLang, detectLang } from "../couples/js/i18n.js";
 
 test("every language has the same UI string keys", () => {
   const en = Object.keys(strings.en).sort();

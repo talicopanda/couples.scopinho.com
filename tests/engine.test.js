@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { shuffle, createDeck } from "../js/engine.js";
+import { shuffle, createDeck } from "../couples/js/engine.js";
 
 test("shuffle keeps every item and does not mutate the input", () => {
   const items = [1, 2, 3, 4, 5];
