@@ -1,0 +1,78 @@
+{
+  "game": "bet",
+  "categories": [
+    { "id": "know_me", "name": { "en": "Know Me", "pt": "Me Conhece" } },
+    { "id": "hypothetical", "name": { "en": "Hypothetical", "pt": "Hipotéticas" } },
+    { "id": "relationship", "name": { "en": "Relationship", "pt": "Relacionamento" } },
+    { "id": "ridiculous", "name": { "en": "Ridiculous", "pt": "Absurdas" } }
+  ],
+  "items": [
+    { "id": "bet_001", "category": "know_me", "prompt": { "en": "What's your biggest irrational pet peeve?", "pt": "Qual é a sua implicância mais irracional?" } },
+    { "id": "bet_002", "category": "know_me", "prompt": { "en": "What are you secretly convinced you're good at?", "pt": "No que você está secretamente convencido(a) de que é bom(boa)?" } },
+    { "id": "bet_003", "category": "know_me", "prompt": { "en": "What would you happily spend too much money on?", "pt": "Com o que você gastaria dinheiro demais, feliz da vida?" } },
+    { "id": "bet_004", "category": "know_me", "prompt": { "en": "What's one thing you would never give up?", "pt": "Do que você nunca abriria mão?" } },
+    { "id": "bet_005", "category": "know_me", "prompt": { "en": "What's your go-to comfort food after a bad day?", "pt": "Qual é a sua comida de conforto depois de um dia ruim?" } },
+    { "id": "bet_006", "category": "know_me", "prompt": { "en": "What song would you walk out to at your own party?", "pt": "Com qual música você entraria na sua própria festa?" } },
+
+    { "id": "bet_007", "category": "hypothetical", "prompt": { "en": "You suddenly receive $10,000 with no restrictions. What's the first thing you buy?", "pt": "Você recebe R$ 50.000 do nada, sem restrições. Qual é a primeira coisa que você compra?" } },
+    { "id": "bet_008", "category": "hypothetical", "prompt": { "en": "You have to move to another country tomorrow. Where do you go?", "pt": "Você precisa se mudar para outro país amanhã. Para onde vai?" } },
+    { "id": "bet_009", "category": "hypothetical", "prompt": { "en": "You can instantly master one skill. What do you choose?", "pt": "Você pode dominar uma habilidade instantaneamente. Qual escolhe?" } },
+    { "id": "bet_010", "category": "hypothetical", "prompt": { "en": "You have to completely change careers tomorrow. What do you become?", "pt": "Você precisa mudar completamente de carreira amanhã. O que você vira?" } },
+    { "id": "bet_011", "category": "hypothetical", "prompt": { "en": "You can only eat one cuisine for the rest of your life. Which one?", "pt": "Você só pode comer um tipo de culinária pelo resto da vida. Qual?" } },
+    { "id": "bet_012", "category": "hypothetical", "prompt": { "en": "You get a free weekend with zero responsibilities. How do you spend it?", "pt": "Você ganha um fim de semana livre, sem nenhuma responsabilidade. Como passa?" } },
+
+    { "id": "bet_013", "category": "relationship", "prompt": { "en": "What's something you think we do unusually well together?", "pt": "O que você acha que a gente faz excepcionalmente bem juntos?" } },
+    { "id": "bet_014", "category": "relationship", "prompt": { "en": "What's our most predictable recurring disagreement?", "pt": "Qual é a nossa discussão recorrente mais previsível?" } },
+    { "id": "bet_015", "category": "relationship", "prompt": { "en": "What do you think is our most underrated activity together?", "pt": "Qual você acha que é a nossa atividade juntos mais subestimada?" } },
+    { "id": "bet_016", "category": "relationship", "prompt": { "en": "What's the best trip we've taken together?", "pt": "Qual foi a melhor viagem que fizemos juntos?" } },
+    { "id": "bet_017", "category": "relationship", "prompt": { "en": "Which of us would you say is the better cook?", "pt": "Quem de nós você diria que cozinha melhor?" } },
+    { "id": "bet_018", "category": "relationship", "prompt": { "en": "What's the first thing you'd want us to do on a free day?", "pt": "Qual é a primeira coisa que você ia querer que a gente fizesse num dia livre?" } },
+
+    { "id": "bet_019", "category": "ridiculous", "prompt": { "en": "If you became a cult leader, what would your cult believe?", "pt": "Se você virasse líder de uma seita, no que ela acreditaria?" } },
+    { "id": "bet_020", "category": "ridiculous", "prompt": { "en": "What crime would you be most likely to accidentally commit?", "pt": "Que crime você teria mais chance de cometer sem querer?" } },
+    { "id": "bet_021", "category": "ridiculous", "prompt": { "en": "What would get you cancelled?", "pt": "O que faria você ser cancelado(a)?" } },
+    { "id": "bet_022", "category": "ridiculous", "prompt": { "en": "If you were an animal in a heist movie, what would you be?", "pt": "Se você fosse um animal num filme de assalto, qual seria?" } },
+    { "id": "bet_023", "category": "ridiculous", "prompt": { "en": "What would your reality TV show be called?", "pt": "Qual seria o nome do seu reality show?" } },
+    { "id": "bet_024", "category": "ridiculous", "prompt": { "en": "What would your supervillain name be?", "pt": "Qual seria o seu nome de supervilão?" } },
+
+    { "id": "bet_025", "category": "know_me", "prompt": { "en": "What's a small thing that instantly makes your day better?", "pt": "Qual é uma coisinha que melhora o seu dia na hora?" } },
+    { "id": "bet_026", "category": "know_me", "prompt": { "en": "What's your most useless talent?", "pt": "Qual é o seu talento mais inútil?" } },
+    { "id": "bet_027", "category": "know_me", "prompt": { "en": "What food could you never eat again and not miss at all?", "pt": "Que comida você nunca mais comeria sem sentir falta nenhuma?" } },
+    { "id": "bet_028", "category": "know_me", "prompt": { "en": "What's a hill you're willing to die on?", "pt": "Qual é a opinião que você defende até o fim?" } },
+    { "id": "bet_029", "category": "know_me", "prompt": { "en": "What do you always overpack when traveling?", "pt": "O que você sempre leva a mais quando viaja?" } },
+    { "id": "bet_030", "category": "know_me", "prompt": { "en": "What's your most-used emoji?", "pt": "Qual é o emoji que você mais usa?" } },
+    { "id": "bet_031", "category": "know_me", "prompt": { "en": "What childhood fear do you still secretly have?", "pt": "Que medo de infância você ainda tem em segredo?" } },
+    { "id": "bet_032", "category": "know_me", "prompt": { "en": "What would you do with a free afternoon alone at home?", "pt": "O que você faria com uma tarde livre, sozinho(a) em casa?" } },
+    { "id": "bet_033", "category": "know_me", "prompt": { "en": "Which household chore do you hate the most?", "pt": "Qual tarefa de casa você mais odeia?" } },
+
+    { "id": "bet_034", "category": "hypothetical", "prompt": { "en": "You can live in any decade of the past. Which one?", "pt": "Você pode viver em qualquer década do passado. Qual?" } },
+    { "id": "bet_035", "category": "hypothetical", "prompt": { "en": "You can have dinner with anyone, alive or dead. Who?", "pt": "Você pode jantar com qualquer pessoa, viva ou morta. Quem?" } },
+    { "id": "bet_036", "category": "hypothetical", "prompt": { "en": "You can only keep one app on your phone. Which one?", "pt": "Você só pode manter um app no celular. Qual?" } },
+    { "id": "bet_037", "category": "hypothetical", "prompt": { "en": "You win a free house anywhere in the world. Where is it?", "pt": "Você ganha uma casa em qualquer lugar do mundo. Onde fica?" } },
+    { "id": "bet_038", "category": "hypothetical", "prompt": { "en": "You must give up coffee or dessert forever. Which one goes?", "pt": "Você precisa abrir mão para sempre de café ou de sobremesa. Qual?" } },
+    { "id": "bet_039", "category": "hypothetical", "prompt": { "en": "You can instantly become fluent in one language. Which one?", "pt": "Você pode ficar fluente numa língua na hora. Qual?" } },
+    { "id": "bet_040", "category": "hypothetical", "prompt": { "en": "You get a year off with full pay. What do you do first?", "pt": "Você ganha um ano de folga com salário. O que faz primeiro?" } },
+    { "id": "bet_041", "category": "hypothetical", "prompt": { "en": "You get one superpower, but it only works on household chores. What is it?", "pt": "Você ganha um superpoder, mas ele só funciona para tarefas de casa. Qual?" } },
+    { "id": "bet_042", "category": "hypothetical", "prompt": { "en": "You can only star in one movie genre for the rest of your life. Which one?", "pt": "Você só pode estrelar um gênero de filme pelo resto da vida. Qual?" } },
+
+    { "id": "bet_043", "category": "relationship", "prompt": { "en": "When did you know this was serious?", "pt": "Quando você soube que era sério?" } },
+    { "id": "bet_044", "category": "relationship", "prompt": { "en": "What's our best inside joke?", "pt": "Qual é a nossa melhor piada interna?" } },
+    { "id": "bet_045", "category": "relationship", "prompt": { "en": "Which of us is more likely to get us lost?", "pt": "Quem de nós tem mais chance de fazer a gente se perder?" } },
+    { "id": "bet_046", "category": "relationship", "prompt": { "en": "What's a date you'd love to repeat?", "pt": "Que encontro você adoraria repetir?" } },
+    { "id": "bet_047", "category": "relationship", "prompt": { "en": "What's the most \"us\" thing we do?", "pt": "Qual é a coisa mais \"a nossa cara\" que a gente faz?" } },
+    { "id": "bet_048", "category": "relationship", "prompt": { "en": "Which of us says sorry first after an argument?", "pt": "Quem de nós pede desculpa primeiro depois de uma briga?" } },
+    { "id": "bet_049", "category": "relationship", "prompt": { "en": "What's a tradition you'd like us to start?", "pt": "Que tradição você gostaria que a gente começasse?" } },
+    { "id": "bet_050", "category": "relationship", "prompt": { "en": "What's the best meal we've ever had together?", "pt": "Qual foi a melhor refeição que já tivemos juntos?" } },
+    { "id": "bet_051", "category": "relationship", "prompt": { "en": "Where do you picture us living in ten years?", "pt": "Onde você imagina a gente morando daqui a dez anos?" } },
+
+    { "id": "bet_052", "category": "ridiculous", "prompt": { "en": "If you were a kitchen appliance, which would you be?", "pt": "Se você fosse um eletrodoméstico, qual seria?" } },
+    { "id": "bet_053", "category": "ridiculous", "prompt": { "en": "What would you go viral for on the internet?", "pt": "Pelo que você viralizaria na internet?" } },
+    { "id": "bet_054", "category": "ridiculous", "prompt": { "en": "What would your wrestling entrance song be?", "pt": "Qual seria a sua música de entrada na luta livre?" } },
+    { "id": "bet_055", "category": "ridiculous", "prompt": { "en": "If you were a pizza topping, which one would you be?", "pt": "Se você fosse um sabor de pizza, qual seria?" } },
+    { "id": "bet_056", "category": "ridiculous", "prompt": { "en": "What's the silliest Olympic event you could win?", "pt": "Qual é a modalidade olímpica mais boba que você ganharia?" } },
+    { "id": "bet_057", "category": "ridiculous", "prompt": { "en": "What would your autobiography be called?", "pt": "Qual seria o título da sua autobiografia?" } },
+    { "id": "bet_058", "category": "ridiculous", "prompt": { "en": "What's the first thing you'd do in a zombie apocalypse?", "pt": "Qual é a primeira coisa que você faria num apocalipse zumbi?" } },
+    { "id": "bet_059", "category": "ridiculous", "prompt": { "en": "If a ghost haunted you, what would it complain about?", "pt": "Se um fantasma te assombrasse, do que ele reclamaria?" } },
+    { "id": "bet_060", "category": "ridiculous", "prompt": { "en": "Which fictional villain would you secretly get along with?", "pt": "Com qual vilão da ficção você se daria bem em segredo?" } }
+  ]
+}

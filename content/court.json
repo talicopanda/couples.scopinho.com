@@ -1,0 +1,320 @@
+{
+  "game": "court",
+  "defaultDebatePrompts": [
+    { "en": "Defend your verdict. Why did you vote the way you did?", "pt": "Defenda seu veredito. Por que você votou assim?" },
+    { "en": "Counterargument: what's the strongest argument against your partner's verdict?", "pt": "Contra-argumento: qual é o argumento mais forte contra o veredito do outro?" }
+  ],
+  "categories": [
+    { "id": "everyday_crimes", "name": { "en": "Everyday Crimes", "pt": "Crimes do Dia a Dia" } },
+    { "id": "relationship_etiquette", "name": { "en": "Relationship Etiquette", "pt": "Etiqueta do Casal" } },
+    { "id": "social_crimes", "name": { "en": "Social Crimes", "pt": "Crimes Sociais" } },
+    { "id": "absurd_crimes", "name": { "en": "Absurd Crimes", "pt": "Crimes Absurdos" } },
+    { "id": "moral_gray_areas", "name": { "en": "Moral Gray Areas", "pt": "Zonas Cinzentas" } }
+  ],
+  "items": [
+    {
+      "id": "court_001",
+      "category": "everyday_crimes",
+      "title": { "en": "The French Fry Incident", "pt": "O Incidente da Batata Frita" },
+      "scenario": {
+        "en": "A couple goes out for dinner. One orders fries. The other says, \"I don't want any.\" The fries arrive, and the partner eats about 70% of them.",
+        "pt": "Um casal sai para jantar. Um pede batata frita. O outro diz: \"Não quero.\" A batata chega e o parceiro come uns 70% dela."
+      },
+      "question": { "en": "Guilty of fry theft?", "pt": "Culpado de roubo de batata?" },
+      "debate_prompts": [
+        { "en": "Defend your verdict.", "pt": "Defenda seu veredito." },
+        { "en": "Does \"I don't want any\" ever really mean no fries?", "pt": "\"Não quero\" algum dia quer dizer nenhuma batata mesmo?" }
+      ]
+    },
+    {
+      "id": "court_002",
+      "category": "everyday_crimes",
+      "title": { "en": "The Secret Episode", "pt": "O Episódio Secreto" },
+      "scenario": {
+        "en": "A couple is watching a series together. On a sleepless night, one of them watches the next episode alone, then later pretends to see it for the first time.",
+        "pt": "Um casal está assistindo a uma série juntos. Numa noite de insônia, um deles assiste ao próximo episódio sozinho e depois finge que está vendo pela primeira vez."
+      },
+      "question": { "en": "Guilty of series betrayal?", "pt": "Culpado de traição seriada?" }
+    },
+    {
+      "id": "court_003",
+      "category": "everyday_crimes",
+      "title": { "en": "\"I'm Ready\"", "pt": "\"Tô Pronto\"" },
+      "scenario": {
+        "en": "One partner announces \"I'm ready!\" and heads for the door. They still need to put on shoes, find their keys and change their shirt.",
+        "pt": "Um anuncia \"Tô pronto!\" e vai para a porta. Ainda falta calçar o sapato, achar a chave e trocar de camisa."
+      },
+      "question": { "en": "Guilty of false readiness?", "pt": "Culpado de falsa prontidão?" }
+    },
+    {
+      "id": "court_004",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Last Slice", "pt": "O Último Pedaço" },
+      "scenario": {
+        "en": "There's one slice of cake left in the fridge. One partner eats it without asking, because the other \"wasn't going to eat it anyway.\"",
+        "pt": "Sobrou um pedaço de bolo na geladeira. Um come sem perguntar, porque o outro \"não ia comer mesmo\"."
+      },
+      "question": { "en": "Guilty of cake crimes?", "pt": "Culpado de crime confeiteiro?" }
+    },
+    {
+      "id": "court_005",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Thermostat War", "pt": "A Guerra do Ar-Condicionado" },
+      "scenario": {
+        "en": "Every night, after the other falls asleep, one partner quietly changes the thermostat to their preferred temperature.",
+        "pt": "Toda noite, depois que o outro dorme, um deles muda a temperatura do ar-condicionado em silêncio para a que prefere."
+      },
+      "question": { "en": "Guilty of climate sabotage?", "pt": "Culpado de sabotagem climática?" }
+    },
+    {
+      "id": "court_006",
+      "category": "relationship_etiquette",
+      "title": { "en": "Just a Quick Look", "pt": "Só Uma Olhadinha" },
+      "scenario": {
+        "en": "During a nice dinner out, one partner checks the score of a game \"just for a second\". Six times.",
+        "pt": "Num jantar especial, um deles olha o placar do jogo \"só rapidinho\". Seis vezes."
+      },
+      "question": { "en": "Guilty of dinner distraction?", "pt": "Culpado de distração no jantar?" }
+    },
+    {
+      "id": "court_007",
+      "category": "social_crimes",
+      "title": { "en": "The Silent Exit", "pt": "A Saída à Francesa" },
+      "scenario": {
+        "en": "At a friend's party, one partner leaves without saying goodbye to anyone and texts the other: \"I'm in the car.\"",
+        "pt": "Numa festa de amigos, um vai embora sem se despedir de ninguém e manda mensagem pro outro: \"Tô no carro.\""
+      },
+      "question": { "en": "Guilty of social abandonment?", "pt": "Culpado de abandono social?" }
+    },
+    {
+      "id": "court_008",
+      "category": "social_crimes",
+      "title": { "en": "The Story Upgrade", "pt": "A História Turbinada" },
+      "scenario": {
+        "en": "Telling friends about a trip, one partner exaggerates what happened. The other knows the fish was much smaller.",
+        "pt": "Contando uma viagem para os amigos, um exagera o que aconteceu. O outro sabe que o peixe era bem menor."
+      },
+      "question": { "en": "Guilty of story inflation?", "pt": "Culpado de inflação narrativa?" }
+    },
+    {
+      "id": "court_009",
+      "category": "absurd_crimes",
+      "title": { "en": "The Dog's Favorite", "pt": "O Favorito do Cachorro" },
+      "scenario": {
+        "en": "One partner secretly gives the dog extra treats so it will like them more.",
+        "pt": "Um dá petiscos extras ao cachorro escondido, para que ele goste mais de si."
+      },
+      "question": { "en": "Guilty of bribing the dog?", "pt": "Culpado de subornar o cachorro?" }
+    },
+    {
+      "id": "court_010",
+      "category": "absurd_crimes",
+      "title": { "en": "The Dream Grudge", "pt": "A Mágoa do Sonho" },
+      "scenario": {
+        "en": "One partner wakes up annoyed because the other was rude to them in a dream.",
+        "pt": "Um acorda chateado porque o outro foi grosso num sonho."
+      },
+      "question": { "en": "Is the dreamer guilty of holding a dream grudge?", "pt": "Quem sonhou é culpado de guardar mágoa de sonho?" }
+    },
+    {
+      "id": "court_011",
+      "category": "moral_gray_areas",
+      "title": { "en": "The Almost-Spoiler", "pt": "O Quase Spoiler" },
+      "scenario": {
+        "en": "One partner accidentally learns the ending of the book the other is reading, and drops hints \"without really spoiling it.\"",
+        "pt": "Um descobre sem querer o final do livro que o outro está lendo e solta umas dicas \"sem contar de verdade\"."
+      },
+      "question": { "en": "Guilty of spoiling?", "pt": "Culpado de spoiler?" }
+    },
+    {
+      "id": "court_012",
+      "category": "moral_gray_areas",
+      "title": { "en": "The Regift", "pt": "O Presente Repassado" },
+      "scenario": {
+        "en": "One partner regifts a present they received, to a close friend of the person who originally gave it.",
+        "pt": "Um repassa um presente que ganhou para um amigo próximo de quem deu o presente."
+      },
+      "question": { "en": "Guilty of reckless regifting?", "pt": "Culpado de repasse imprudente?" }
+    },
+    {
+      "id": "court_013",
+      "category": "everyday_crimes",
+      "title": { "en": "The Blanket Heist", "pt": "O Roubo do Cobertor" },
+      "scenario": {
+        "en": "In the middle of the night, one partner slowly rolls over and ends up with the entire blanket.",
+        "pt": "No meio da noite, um vai se virando devagar e acaba com o cobertor inteiro."
+      },
+      "question": { "en": "Guilty of blanket theft?", "pt": "Culpado de roubo de cobertor?" }
+    },
+    {
+      "id": "court_014",
+      "category": "everyday_crimes",
+      "title": { "en": "The Empty Carton", "pt": "A Caixa Vazia" },
+      "scenario": {
+        "en": "One partner puts an empty milk carton back in the fridge.",
+        "pt": "Um guarda a caixa de leite vazia de volta na geladeira."
+      },
+      "question": { "en": "Guilty of fridge deception?", "pt": "Culpado de enganação na geladeira?" }
+    },
+    {
+      "id": "court_015",
+      "category": "everyday_crimes",
+      "title": { "en": "The Restaurant Veto", "pt": "O Veto do Restaurante" },
+      "scenario": {
+        "en": "Asked where to eat, one partner says, \"I don't mind, you pick.\" They then reject the first five suggestions.",
+        "pt": "Perguntado onde comer, um diz: \"Tanto faz, escolhe você.\" Depois recusa as cinco primeiras sugestões."
+      },
+      "question": { "en": "Guilty of fake flexibility?", "pt": "Culpado de falsa flexibilidade?" }
+    },
+    {
+      "id": "court_016",
+      "category": "everyday_crimes",
+      "title": { "en": "The Alarm Symphony", "pt": "A Sinfonia do Despertador" },
+      "scenario": {
+        "en": "One partner sets five alarms, ten minutes apart, and snoozes every single one.",
+        "pt": "Um coloca cinco despertadores, de dez em dez minutos, e adia todos."
+      },
+      "question": { "en": "Guilty of alarm abuse?", "pt": "Culpado de abuso de despertador?" }
+    },
+    {
+      "id": "court_017",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Heart Reaction", "pt": "A Resposta Coração" },
+      "scenario": {
+        "en": "One partner reads a message with a question, reacts with a heart, and never actually answers.",
+        "pt": "Um lê uma mensagem com uma pergunta, reage com um coração e nunca responde de verdade."
+      },
+      "question": { "en": "Guilty of heart-dodging?", "pt": "Culpado de fugir com coração?" }
+    },
+    {
+      "id": "court_018",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Surprise Haircut", "pt": "O Corte Surpresa" },
+      "scenario": {
+        "en": "One partner gets a dramatic haircut without mentioning it beforehand.",
+        "pt": "Um faz um corte de cabelo radical sem comentar nada antes."
+      },
+      "question": { "en": "Guilty of an unannounced makeover?", "pt": "Culpado de mudança sem aviso?" }
+    },
+    {
+      "id": "court_019",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Unfair Photo", "pt": "A Foto Injusta" },
+      "scenario": {
+        "en": "One partner posts a couple photo where they look great and the other looks terrible.",
+        "pt": "Um posta uma foto do casal em que está ótimo e o outro está péssimo."
+      },
+      "question": { "en": "Guilty of selfish posting?", "pt": "Culpado de postagem egoísta?" }
+    },
+    {
+      "id": "court_020",
+      "category": "relationship_etiquette",
+      "title": { "en": "The Borrowed Hoodie", "pt": "O Moletom Emprestado" },
+      "scenario": {
+        "en": "One partner has been \"borrowing\" the other's favorite hoodie for eight months.",
+        "pt": "Um está \"pegando emprestado\" o moletom favorito do outro há oito meses."
+      },
+      "question": { "en": "Guilty of hoodie theft, or is it shared property now?", "pt": "Culpado de roubo de moletom, ou já é propriedade do casal?" }
+    },
+    {
+      "id": "court_021",
+      "category": "social_crimes",
+      "title": { "en": "The Surprise Guest", "pt": "O Convidado Surpresa" },
+      "scenario": {
+        "en": "One partner brings a friend along to dinner at the other's parents' house without asking first.",
+        "pt": "Um leva um amigo para jantar na casa dos pais do outro sem perguntar antes."
+      },
+      "question": { "en": "Guilty of a guest ambush?", "pt": "Culpado de emboscada de convidado?" }
+    },
+    {
+      "id": "court_022",
+      "category": "social_crimes",
+      "title": { "en": "The Group Chat Leak", "pt": "O Vazamento no Grupo" },
+      "scenario": {
+        "en": "One partner shares something funny the other said at home in a group chat with friends.",
+        "pt": "Um conta num grupo de amigos uma coisa engraçada que o outro disse em casa."
+      },
+      "question": { "en": "Guilty of leaking private material?", "pt": "Culpado de vazar material privado?" }
+    },
+    {
+      "id": "court_023",
+      "category": "social_crimes",
+      "title": { "en": "The Punctual Arrival", "pt": "A Chegada Pontual" },
+      "scenario": {
+        "en": "Invited to a party at 8, one partner insists on arriving at exactly 8.",
+        "pt": "Convidados para uma festa às 8, um insiste em chegar exatamente às 8."
+      },
+      "question": { "en": "Guilty of excessive punctuality?", "pt": "Culpado de pontualidade excessiva?" }
+    },
+    {
+      "id": "court_024",
+      "category": "social_crimes",
+      "title": { "en": "The Itemized Bill", "pt": "A Conta Dividida" },
+      "scenario": {
+        "en": "At dinner with friends, one partner insists on splitting the bill exactly by what each person ordered.",
+        "pt": "Num jantar com amigos, um insiste em dividir a conta exatamente pelo que cada um pediu."
+      },
+      "question": { "en": "Guilty of calculator behavior?", "pt": "Culpado de comportamento de calculadora?" }
+    },
+    {
+      "id": "court_025",
+      "category": "absurd_crimes",
+      "title": { "en": "The Favorite Plant", "pt": "A Planta Favorita" },
+      "scenario": {
+        "en": "One partner talks lovingly to one houseplant and completely ignores all the others.",
+        "pt": "Um conversa com carinho com uma planta e ignora completamente as outras."
+      },
+      "question": { "en": "Guilty of plant favoritism?", "pt": "Culpado de favoritismo vegetal?" }
+    },
+    {
+      "id": "court_026",
+      "category": "absurd_crimes",
+      "title": { "en": "The Line Reader", "pt": "O Dublador" },
+      "scenario": {
+        "en": "One partner says every line of a movie out loud, one second before the actors do.",
+        "pt": "Um fala todas as falas do filme em voz alta, um segundo antes dos atores."
+      },
+      "question": { "en": "Guilty of ruining the dialogue?", "pt": "Culpado de estragar o diálogo?" }
+    },
+    {
+      "id": "court_027",
+      "category": "absurd_crimes",
+      "title": { "en": "The Pet's Voice", "pt": "A Voz do Pet" },
+      "scenario": {
+        "en": "One partner gives the pet a voice and uses it to complain about the other.",
+        "pt": "Um dá voz ao pet e usa essa voz para reclamar do outro."
+      },
+      "question": { "en": "Guilty of ventriloquist warfare?", "pt": "Culpado de guerra de ventríloquo?" }
+    },
+    {
+      "id": "court_028",
+      "category": "moral_gray_areas",
+      "title": { "en": "The Gift White Lie", "pt": "A Mentirinha do Presente" },
+      "scenario": {
+        "en": "One partner says they love a gift, then quietly exchanges it the next day.",
+        "pt": "Um diz que amou o presente e, no dia seguinte, troca escondido."
+      },
+      "question": { "en": "Guilty of gift dishonesty?", "pt": "Culpado de desonestidade presenteira?" }
+    },
+    {
+      "id": "court_029",
+      "category": "moral_gray_areas",
+      "title": { "en": "The Ruined Algorithm", "pt": "O Algoritmo Bagunçado" },
+      "scenario": {
+        "en": "One partner watches their own shows on the other's streaming profile and scrambles all their recommendations.",
+        "pt": "Um assiste às próprias séries no perfil de streaming do outro e bagunça todas as recomendações."
+      },
+      "question": { "en": "Guilty of algorithm vandalism?", "pt": "Culpado de vandalismo de algoritmo?" }
+    },
+    {
+      "id": "court_030",
+      "category": "moral_gray_areas",
+      "title": { "en": "The Found Money", "pt": "O Dinheiro Achado" },
+      "scenario": {
+        "en": "One partner finds cash in the other's old jacket and keeps it, because \"it was already forgotten.\"",
+        "pt": "Um acha dinheiro num casaco velho do outro e fica com ele, porque \"já estava esquecido\"."
+      },
+      "question": { "en": "Guilty, or finders keepers?", "pt": "Culpado, ou achado não é roubado?" }
+    }
+  ]
+}
